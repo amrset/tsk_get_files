@@ -29,7 +29,7 @@ damaged.
 The Sleuth Kit(TSK) can be found at: http://www.sleuthkit.org/sleuthkit/
 
 ------------------------------------------------------------------------------
-{{{
+<code>
 Usage:   tsk_get_files.py [options]
 
 Message levels are mutually exclusive.  The messages print to both the screen 
@@ -61,4 +61,4 @@ Options:
                         Filesystem type to analyze.  Valid filesystems can
                         come from "The Sleuth Kit"'s "fls -f list" command.
                         REQUIRED parameter.
-}}}
+</code>
