@@ -28,37 +28,3 @@ damaged.
 
 The Sleuth Kit(TSK) can be found at: http://www.sleuthkit.org/sleuthkit/
 
-------------------------------------------------------------------------------
-<code>
-Usage:   tsk_get_files.py [options]
-
-Message levels are mutually exclusive.  The messages print to both the screen 
-and to syslog.  
-
-Default is to print "Normal" messages to the screen.
-
-Options:
-  --version             show program's version number and exit
-  -h, --help            show this help message and exit
-  -m LEVEL, --message-level=LEVEL
-                        How verbose to be.  Default is "normal"
-  -q, --quiet           Don't print status messages
-  -v, --verbose         Print status messages
-  -d, --debug           Print debug messages
-  --fls=FLS             Location of the fls executable,  if not in the user's
-                        path.  OPTIONAL parameter.
-  --icat=ICAT           Location of the icat executable,  if not in the user's
-                        path.  OPTIONAL parameter.
-  -r ROOT, --root-dir=ROOT
-                        Directory you want to recover.  REQUIRED parameter.
-  -s SOURCE, --source-dir=SOURCE
-                        Source - location of the bitstream image.  REQUIRED
-                        parameter.
-  -t TARGET, --target-dir=TARGET
-                        Target or destination directory to copy data to.
-                        REQUIRED parameter.
-  -f FILESYSTEM, --filesystem-type=FILESYSTEM
-                        Filesystem type to analyze.  Valid filesystems can
-                        come from "The Sleuth Kit"'s "fls -f list" command.
-                        REQUIRED parameter.
-</code>
